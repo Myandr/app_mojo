@@ -1,20 +1,20 @@
 /* Base Styles */
 :root {
-    --primary: #fab050;
-    --primary-light: #fdff85;
-    --primary-dark: #d98e47;
-    --secondary: #e9660e;
-    --accent: #F97316;
+    --primary: #ec9234;
+    --primary-light: #ec9234;
+    --primary-dark: #ec9234;
+    --secondary: #ec9234;
+    --accent: #ec9234;
     --text-primary: #1F2937;
     --text-secondary: #6B7280;
     --text-light: #9CA3AF;
-    --background: #FFFFFF;
+    --background: #ffffff;
     --background-light: #F9FAFB;
     --background-dark: #F3F4F6;
     --border: #E5E7EB;
     --success: #10B981;
     --error: #EF4444;
-    --warning: #F59E0B;
+    --warning: #ec9234;
 }
 
 * {
@@ -954,6 +954,7 @@ nav {
     background-color: var(--primary);
     color: white;
     transform: scale(1.05);
+    width: 400px;
 }
 
 .pricing-card.featured:hover {
